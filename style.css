@@ -22,18 +22,13 @@ a{
 
 a:hover{
     text-decoration-line: underline;
+    color: white;
 }
 
 .item{
     width: 16.6%;
     display: inline-block;
     margin-left: -4px;
-    position: relative;
-    top: 0;
-}
-
-.item, .lienCobra, #cobra{
-    overflow: hidden;
 }
 
 .brac{
@@ -80,8 +75,8 @@ a:hover{
     display: block;
     width: 90%;
     margin: auto;
-    height: 1em;
-    background: darkviolet;
+    height: 2em;
+    background: grey;
 }
 
 #double{
