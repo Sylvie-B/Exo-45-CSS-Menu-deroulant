@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    width: 100%;
+}
+
+a{
+    text-decoration-line: none;
+    color: cornflowerblue;
+}
+
+a:hover{
+    text-decoration-line: underline;
+}
+
+.item{
+    width: 16.6%;
+    display: inline-block;
+    margin-left: -4px;
+    position: relative;
+    top: 0;
+}
+
+.item, .lienCobra, #cobra{
+    overflow: hidden;
+}
+
+.brac{
+    width: 100%;
+    display: block;
+    padding: 1em;
+    border: darkcyan solid 1px;
+    margin-left: -3px;
+}
+
+#cobra{
+    background: indigo;
+}
+
+.lienCobra, .lienDouble, .lienKing, .lienShark, .lienSnake, .lienMadMax{
+    display: none;
+}
+
+.item:hover .lienCobra{
+    display: block;
+}
+
+.item:hover .lienDouble{
+    display: block;
+}
+
+.item:hover .lienKing{
+    display: block;
+}
+
+.item:hover .lienShark{
+    display: block;
+}
+
+.item:hover .lienSnake{
+    display: block;
+}
+
+.item:hover .lienMadMax{
+    display: block;
+}
+
+.lienCobra a, .lienDouble a, .lienKing a, .lienShark a, .lienSnake a, .lienMadMax a{
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: 1em;
+    background: darkviolet;
+}
+
+#double{
+    background: darkblue;
+}
+
+#king{
+    background: blue;
+}
+
+#shark{
+    background: lightblue;
+}
+
+#snake{
+    background: cyan;
+}
+
+#madMax{
+    background: teal;
+}
