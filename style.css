@@ -29,6 +29,7 @@ a:hover{
     width: 16.6%;
     display: inline-block;
     margin-left: -4px;
+    vertical-align: top;
 }
 
 .brac{
@@ -75,7 +76,7 @@ a:hover{
     display: block;
     width: 90%;
     margin: auto;
-    height: 2em;
+    height: 1.5em;
     background: grey;
 }
 
